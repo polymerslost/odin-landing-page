@@ -1,0 +1,169 @@
+.header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display :flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.links {
+    display: flex;
+    color: white;
+    margin-right: 100px;
+}
+.links a{
+    color: white;
+    margin: 0 46px;
+    text-decoration: none;
+}
+.header_text{
+    margin-left: 100px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.body2 {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  
+}
+.header_text2 {
+    color:#F9FAF8;
+    font-size: 48px;
+    padding-bottom: -60px;
+}
+.body2wrapper{
+    flex-direction: column;
+    margin-left: 100px;
+}
+.button1{
+    order: 1;
+    flex-direction: column;
+    background-color: #3882f6;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+}
+.body_text2{
+   order: 2;
+   flex-direction: column;
+   color: #E5E7EB;
+   font-size: 18px;
+}
+.image_body2{
+    order: 3;
+    margin-right: 300px;
+    background-color: grey;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+body{
+    background-color: #1F2937;
+    
+}
+.body3 {
+    color: grey;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body3wrapper {
+    display: flex;
+    margin-top: -75px; 
+    justify-content: center;
+    justify-content: space-evenly;
+   
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    border-radius: 8px;
+    overflow: hidden
+}
+.container2 {
+    display: flex;
+    flex-direction: column; 
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    border-radius: 8px;
+    overflow: hidden
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    border-radius: 8px;
+    overflow: hidden
+}
+.header_body3 {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    margin: 50px;
+}  
+.quote{
+    display:flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font: light italic;
+    color: #1F2937
+}
+.signature {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #E5E7EB;
+    padding-right: 900px;
+}
+.body4 {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign_field {
+    background-color: #3882f6;
+    width: 800px;
+    display:flex ;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
+}
+.button {
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 20px;
+    
+}
+.copyright{
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+    justify-content: center;
+    margin: 50px auto;
+}
